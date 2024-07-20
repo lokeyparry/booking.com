@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js",
-        "postinstall": "chmod +x node_modules/.bin/prisma && prisma generator"
+        "postinstall": "chmod +x node_modules/.bin/prisma && prisma generate"
     },
     "author": "Er.Parvej Ansari",
     "license": "ISC",
