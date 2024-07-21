@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     domain='dev-vsedj4ssjb87bxrs.us.auth0.com'
     clientId='D6Nr0XwBzFljBt4ItNSKAaWYmy9gN0y1'
     authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://bookingcomfr.vercel.app"
     }}
     audience="http://localhost:8000"
     scope="openid profile email"
